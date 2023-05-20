@@ -7,5 +7,4 @@ bot.on(`message`, async ctx => {
     return await ctx.reply(`<b>Started!</b>\nThis bot was deployed on vercel.com`, { parse_mode: 'HTML' })
 })
 
-bot.start()
 export default webhookCallback(bot, 'http');
