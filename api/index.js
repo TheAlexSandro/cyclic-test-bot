@@ -8,3 +8,4 @@ bot.on(`message`, async ctx => {
 })
 
 bot.start()
+export default webhookCallback(bot, "http");
