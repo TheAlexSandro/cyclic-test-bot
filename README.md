@@ -64,7 +64,8 @@ process.once("SIGTERM", () => bot.stop("SIGTERM"));
 Untuk set webhook, pergi ke powershell dan ketikkan perintah:
 <pre>curl "https://api.telegram.org/botBOT_TOKEN/setWebhook?url=https://[app-name].cyclic.app"</pre>
 Untuk mendapatkan tautan dari aplikasi kalian, maka kalian cukup pergi overview dari app kalian dan lihat pada nama aplikasinya, dibawah akan ada tautan untuk set webhook.
-Bot berhasil berjalan dengan baik!
+
+Dan bot berhasil berjalan dengan baik!
 
 ## Closing
 Baiklah, itu saja tempat deploy beserta caranya yang bisa saya berikan kali ini, jika kalian masih bingung dengan cara diatas, kalian dapat browsing atau mencari video tutorialnya di YouTube.
