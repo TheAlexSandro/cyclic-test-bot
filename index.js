@@ -1,11 +1,16 @@
-const { Bot, webhookCallback } = require('grammy');
-const token = `6031748891:AAHbDmOP5nK08odbRoDkxb_0OvRKKQ4DHMw`
+const { UpdateType, TelegramBot } = require('https://deno.land/x/telegram_bot_api/mod.ts');
 
-const bot = new Bot(token);
+const TOKEN = Deno.env.get("TOKEN");
+if (!TOKEN) throw new Error("Bot token is not provided");
+const bot = new TelegramBot(TOKEN);
 
-bot.on(`message`, async ctx => {
-    return await ctx.reply(`<b>Started!</b>`, { parse_mode: 'HTML' })
-})
+bot.on(UpdateType.Message, async ({ ctx }) => {
+  var chatID = ctx.chat.id;
 
-bot.start()
-module.exports = { bot }
+  await bot.sendMessage(`This bot was deployed on deno.com/deploy`)
+  return await bot.sendMessage(chatID, `<code>${JSON.stringify(ctx, null, 2)}</code>`, { parse_mode: 'HTML' })
+});
+
+bot.run({
+  polling: true,
+});
