@@ -1,4 +1,4 @@
-import { Bot } from './node_modules/grammy/out/bot.ts';
+import { Bot } from './node_modules/grammy/out/bot.d.ts';
 const token = `6031748891:AAHbDmOP5nK08odbRoDkxb_0OvRKKQ4DHMw`
 
 const bot = new Bot(token);
