@@ -1,0 +1,4 @@
+account_id = '7561fce62761c47c91402d9ab3d02453' # Get this from Cloudflare's dashboard.
+name = 'my-bot' # Your bot's name, which will appear in the webhook URL, for example: https://my-bot.my-subdomain.workers.dev
+main = "src/index.ts"  # The entry file of the worker.
+compatibility_date = "2023-21-05"
