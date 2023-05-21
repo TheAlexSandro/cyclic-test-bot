@@ -2,7 +2,7 @@
 Ini adalah contoh bot yang dideploy dengan menggunakan [cyclic.sh](https://cyclic.sh)
 
 ## Explanation
-[cyclic.sh](https://cyclic.sh) adalah sebuah tempat deployment seperti Heroku dan lain-lain. Untuk biayanya adalah gratis <b>selamanya</b>, tetapi jika kamu menginginkan yang lebih powerfull, kamu dapat menggunakan yang versi berbayarnya, lihat versi selengkapnya <a href='https://www.cyclic.sh/pricing'>disini</a>. Untuk mendeploy bot kamu ke cyclic, caranya sama seperti ketika ingin mendeploy bot ke Heroku yaitu dengan menggunakan repo dari gitub.
+[cyclic.sh](https://cyclic.sh) adalah sebuah tempat deployment seperti Heroku dan lain-lain. Untuk biayanya adalah gratis <b>selamanya</b>, tetapi jika kamu menginginkan yang lebih powerfull, kamu dapat menggunakan yang versi berbayarnya, lihat versi selengkapnya <a href='https://www.cyclic.sh/pricing'>disini</a>. Untuk mendeploy bot kamu ke cyclic, caranya sama seperti ketika ingin mendeploy bot ke Heroku yaitu dengan menggunakan repo dari github.
 
 ## Requirements
 - NodeJS V12+
