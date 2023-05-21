@@ -27,7 +27,7 @@ const bot = new Bot(process.env.BOT_TOKEN);
 
 bot.on('message', async ctx => {
   await ctx.reply(`This bot was deployed on cyclic.sh`)
-  awatit ctx.reply(`Example code: https://github.com/TheAlexSandro/cyclic-test-bot`)
+  await ctx.reply(`Example code: https://github.com/TheAlexSandro/cyclic-test-bot`)
   return;
 })
 
