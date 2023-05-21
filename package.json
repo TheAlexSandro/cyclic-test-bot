@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "grammy": "^1.16.0"
-  }
+  },
+  "name": "vercel-test-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAlexSandro/vercel-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAlexSandro/vercel-test/issues"
+  },
+  "homepage": "https://github.com/TheAlexSandro/vercel-test#readme",
+  "description": ""
 }
