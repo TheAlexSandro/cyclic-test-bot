@@ -53,7 +53,7 @@ process.once("SIGTERM", () => bot.stop("SIGTERM"));
 - Untuk sign up sendiri, itu mudah karena hanya perlu menyambungkan akun github yang kalian punya.
 - Tekan bagian "link your own"
 - Dan tekan "search your repositories"
-- Lalu tekan "conect cyclic", bagian advanced biarkan saja seperti itu dan tunggu hingga selesai.
+- Lalu tekan "connect cyclic", bagian advanced biarkan saja seperti itu dan tunggu hingga selesai.
 - Jika sudah, maka dibawah akan ada peringatan bertuliskan <b>Environment Variables</b>, lalu tekan tulisan <b>environment variables console</b>.
 - Dibagian <code>NODE_ENV</code> isikan production
 - Dibagian <code>BOT_TOKEN</code> isikan token bot kalian
