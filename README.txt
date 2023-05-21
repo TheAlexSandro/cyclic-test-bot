@@ -1,2 +1,0 @@
-# Ini adalah contoh bot yang diterapkan dengan menggunakan <a href='https://vercel.com' target='_blank'>vercel.com</a>
-Username botnya adalah: <a href='https://t.me/VercelTestBot' target='_blank'>@VercelTestBot</a>
