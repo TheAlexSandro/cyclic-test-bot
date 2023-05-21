@@ -1,4 +1,4 @@
-const { Bot, webhookCallback } = require('grammy');
+import { Bot, webhookCallback } from 'grammy';
 const token = `6031748891:AAHbDmOP5nK08odbRoDkxb_0OvRKKQ4DHMw`
 
 const bot = new Bot(token);
