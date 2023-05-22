@@ -14,7 +14,7 @@ Berikut cara untuk mendeploy bot ke <a href='https://cyclic.sh'>cyclic.sh</a>:
 - Ketikkan <code>mkdir my-bot</code>
 - Pergi ke folder yang dibuat tadi (my-bot)
 - Ketikkan perintah <code>npm init -y</code>
-- Pergi ke folder my-bot dan buka <code>package.json</code>
+- Pergi ke folder my-bot dan buka <code>package.json</code>, lalu tambahkan ```"start": "node index.js"``` di bagian "scripts", untuk "test" sendiri boleh dihapus.
 - Buka powershell dan install grammy, express dan dotenv dengan cara <code>npm install grammy express dotenv</code>
 - Salin file .env.example ke .env dengan cara <code>cp .env.example .env</code>
 - Pergi ke file .env yang sudah disalin, lalu ganti isi BOT_TOKEN dengan token bot yang sudah kamu buat di [@BotFather](https://t.me/BotFather)
