@@ -54,9 +54,9 @@ process.once("SIGTERM", () => bot.stop("SIGTERM"));
 - Pergi ke [cyclic.sh](https://cyclic.sh) dan sign up (jika belum punya akun)
 - Untuk sign up sendiri, itu mudah karena hanya perlu menyambungkan akun github yang kalian punya.
 - Tekan bagian "link your own"
-- Dan tekan "search your repositories"
+- Dan tekan "search your repositories" dan pilih repo yang dibuat tadi.
 - Lalu tekan "connect cyclic", bagian advanced biarkan saja seperti itu dan tunggu hingga selesai.
-- Jika sudah, maka dibawah akan ada peringatan bertuliskan <b>Environment Variables</b>, lalu tekan tulisan <b>environment variables console</b>.
+- Jika sudah, maka dibawah akan ada peringatan bertuliskan <b>Environment Variables</b>, scroll dan tekan tulisan <b>environment variables console</b>.
 - Dibagian <code>NODE_ENV</code> isikan production
 - Dibagian <code>BOT_TOKEN</code> isikan token bot kalian
 - Lalu tekan save
@@ -66,7 +66,6 @@ process.once("SIGTERM", () => bot.stop("SIGTERM"));
 Untuk set webhook, pergi ke powershell dan ketikkan perintah:
 <pre>curl "https://api.telegram.org/botBOT_TOKEN/setWebhook?url=https://[app-name].cyclic.app"</pre>
 Untuk mendapatkan tautan dari aplikasi kalian, maka kalian cukup pergi overview dari app kalian dan lihat pada nama aplikasinya, dibawah akan ada tautan untuk set webhook.
-
 
 ## Closing
 Baiklah, itu saja tempat deploy beserta caranya yang bisa saya berikan kali ini, jika kalian masih bingung dengan cara diatas, kalian dapat browsing atau mencari video tutorialnya di YouTube.
