@@ -13,7 +13,7 @@ Berikut cara untuk mendeploy bot ke <a href='https://cyclic.sh'>cyclic.sh</a>:
 - Buka command promt (powershell) di Windows, MacOS atau Linux kamu
 - Ketikkan <code>mkdir my-bot</code>
 - Pergi ke direktori filenya dengan cara ```cd my-bot```
-- Buka poweshell lagi dan ketik perintah <code>npm init -y</code>
+- Ketikkan perintah <code>npm init -y</code>
 - Pergi ke folder my-bot dan buka <code>package.json</code>, lalu tambahkan ```"start": "node index.js"``` di bagian "scripts", untuk "test" sendiri boleh dihapus atau tidak.
 - Buka powershell dan install grammy, express dan dotenv dengan cara <code>npm install grammy express dotenv</code>
 - Salin file .env.example ke .env dengan cara <code>cp .env.example .env</code>
